@@ -66,9 +66,8 @@ MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 """
 MODEL Evaluation related constants
 """
-MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02 
-
-
-
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_DEPLOYMENT_PATH = "models/deployed/model.pkl" 
 APP_HOST = "0.0.0.0"
 APP_PORT = 5000 
+

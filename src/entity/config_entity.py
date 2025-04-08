@@ -63,3 +63,10 @@ class ModelEvaluationConfig:
     root_dir: Path = Path("artifact")
     best_model_path: Path = None 
      
+     
+from dataclasses import dataclass
+from src.constants import MODEL_DEPLOYMENT_PATH
+
+@dataclass
+class ModelPusherConfig:
+    model_deploy_path: str = MODEL_DEPLOYMENT_PATH

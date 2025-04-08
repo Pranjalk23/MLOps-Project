@@ -23,6 +23,9 @@
 # --------------------------------------------------------------------------------
 
 from src.pipline.training_pipeline import TrainPipeline
+import sys
+sys.path.append("C:\\Users\\Pranjal Kashyap\\Desktop\\MLOps ML\\MLOps-Project\\src")
+
 
 pipline = TrainPipeline()
 pipline.run_pipeline()  

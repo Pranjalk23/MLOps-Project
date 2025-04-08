@@ -35,3 +35,7 @@ class ModelEvaluationArtifact:
     is_model_accepted:bool
     changed_accuracy:float 
     trained_model_path:str 
+
+@dataclass
+class ModelPusherArtifact:
+    model_deploy_path: str 
